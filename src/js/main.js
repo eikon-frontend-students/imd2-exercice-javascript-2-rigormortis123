@@ -19,14 +19,14 @@ var trigger = function () {
 };
 
 var triggerAll = function () {
-  boxOne.classList.toggle("blue");
-  boxTwo.classList.toggle("red");
+  boxOne.classList.add("blue");
+  boxTwo.classList.add("red");
 };
 
 var triggerAllSelf = function () {
-  boxOne.classList.toggle("blue");
-  boxTwo.classList.toggle("red");
-  boxSix.classList.toggle("green");
+  boxOne.classList.add("blue");
+  boxTwo.classList.add("red");
+  boxSix.classList.add("green");
 };
 
 boxOne.addEventListener("click", changeColor);
