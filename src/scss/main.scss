@@ -64,3 +64,33 @@ h1 {
 .box.trigger-all-self {
   background: var(--blue-color);
 }
+
+/* COLORS */
+
+.yellow {
+  background: var(--yellow-color) !important;
+}
+
+.orange {
+  background: var(--orange-color) !important;
+}
+
+.violet {
+  background: var(--violet-color) !important;
+}
+
+.red {
+  background: var(--red-color) !important;
+}
+
+.green {
+  background: var(--green-color) !important;
+}
+
+.blue {
+  background: var(--blue-color) !important;
+}
+
+.is-inactive {
+  opacity: 0;
+}
